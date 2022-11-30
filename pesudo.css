@@ -1,0 +1,101 @@
+.roof{
+    width: 500px;
+    height: 300px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+/* .pesudo{
+    color: red;
+    font-size: 30px;
+} */
+
+.psedo::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+.psedo::first-line{
+    color: red;
+    font-size: 30px;
+}
+
+.psedo::after{
+    content: 'hello';
+    color: red;
+    font-size: 30px;
+}
+
+.psedo::before{
+    content: 'hello';
+    color: red;
+    font-size: 30px;
+}
+
+/* .k011::file-selector-button{
+    background: skyblue;
+    border: none;
+    padding: 20px;
+    color: white;
+}
+.k011::file-selector-button:hover{
+    background: blue;
+} */
+
+
+input[type=file]::-webkit-file-upload-button{
+    background: skyblue;
+    border: none;
+}
+
+
+
+
+input::-webkit-input-placeholder{
+    background: red;
+    color: white;
+}
+input::-webkit-slider-runnable-track{
+    /* background: red; */
+
+}
+
+
+
+
+input[type=range]{
+    appearance: none;
+}
+input[type="range" i]::-webkit-slider-thumb{
+    appearance: none;
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 29px;
+}
+
+
+
+progress::-webkit-progress-inner-element{
+    background: red;
+}
+
+progress[value] {
+    display: block;
+    width: 100%;
+    min-height: 4rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 4px rgba(84, 30, 8, 0.2);
+    background-color:rgba(149, 250, 61, 0.1);
+    border: 1px solid #ccc;
+    animation: colorrush 5s infinite linear;
+  }
+  progress[value]::-webkit-progress-inner-element {
+    border-radius: 10px;
+    overflow: hidden;
+    background-position:inherit;
+  }

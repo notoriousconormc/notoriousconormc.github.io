@@ -1,0 +1,131 @@
+.test1{
+    /* padding: 5px; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.test11{
+    height: 60px;
+    width: 60px;
+    background: chocolate;
+    text-align: center;
+    float: left;
+    width: 50%;
+    max-width: 1000px;
+    
+
+}
+
+
+.test2{
+    padding: 5px;
+    margin: 20px;
+    font-size: 30px;
+    width: 80%;
+}
+.test2 div {
+    float: left; 
+    width: 25%;
+    
+}
+
+
+.awsome{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.awsome i {
+    background-color: burlywood;
+    
+    height: 40%;
+    border-radius: 50px;
+    padding-top: 10%;
+    box-sizing: border-box;
+    color: white;
+    /* float: left; */
+    width: 25%;
+}
+
+@media screen and (max-width:1200px){
+    .test1{
+        font-size: 15px;
+    }
+    .test1 div{
+        width: 100%;
+    }
+    .test2{
+        font-size: 20px;
+    }
+    .test2 div{
+        width: 50%;
+    }
+    
+
+}
+@media screen and (max-width:760px){
+    .test2{
+        font-size: 10px;
+    }
+    .test2 div{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    .awsome{
+        font-size: 20px;
+    }
+}
+
+.shop-bg{
+    background: #eee;
+    padding: 20px;
+}
+
+.shop-container{
+    display: flex;
+}
+.shop-item{
+    width: 33%;
+}
+.shop-item img{
+    width: 100%;  
+}
+.overlay{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); 
+    opacity: 0;
+    transition: all 1s;
+    
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+
+.overlay-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.overlay-black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 150%;
+    padding: 20px;   
+    transition: all 1s;
+}
+.overlay-wrap:hover .overlay-black{
+    margin-top: 20%;
+}

@@ -1,0 +1,141 @@
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(shoes.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* filter: brightness(100%); */
+    padding: 1px;
+}
+.main-title{
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    padding-left: 20px;
+    text-align: center;
+}
+.main-title-ex{
+    /* border: 1px solid;
+    background: white;
+    height: 100px;
+    width: 100%; */
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.main-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    top: 100px;
+}
+
+.wonder-button{
+    font-size: 20px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.nomercy{
+    margin-top: -30px;
+    padding: 30px;
+    background: #eee;
+    border: 0.1px solid;
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url(k1211.jpg); */
+    background-size: cover;
+    background-position: center;
+    box-sizing : border-box ; 
+}
+
+.datt{
+    margin-top: 50px;
+}
+
+.text-input{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.kpop{
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid;
+    height: 300px;
+    width: 400px;
+
+}
+
+/* td,th{
+    border: 1px solid black;
+    vertical-align: middle;
+}
+*/
+table{
+    border-collapse: collapse;
+} 
+
+
+.table1{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 1px solid;
+    background: #eee;
+    height: 300px;
+    width: 500px;
+}
+
+
+.cart-table{
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.cart-table td {
+    padding: 15px;
+    /* border: 1px solid #c2d3de; */
+     border-bottom: 1px solid #c2d3de; 
+    
+}
+
+.cart-table td:nth-child(2){
+    width: 400px;
+}
+.buuu{
+    margin: 10px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.buuu:hover {
+    background : chocolate; /*마우스를 올려놓을 때*/
+  }
+  .buuu:focus {
+    background : red; /*클릭 후 계속 포커스 상태일 때*/
+  }
+  .buuu:active {
+    background : brown; /*클릭 중일 때*/
+  }

@@ -1,0 +1,150 @@
+.papawaa{
+    display: flex;
+    
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+.papaw{
+    
+     /* width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;  */
+    color: black;
+    
+}
+
+
+
+
+
+
+ .tetest{
+    width: 80%;
+    /* display: flex;  */
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+} 
+
+
+.tetest div{
+    float: left;
+    width: 25%;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .main-title{
+        font-size: 20px;
+    }
+    .tetest div{
+        width: 50%;
+    }
+    .tetest div{
+        max-width: 600px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .main-title{
+        font-size: 15px;
+    }
+    .tetest div{
+        width:100%;
+    }
+    
+}
+
+.background1{
+    height: 700px;
+    width: 800px;
+    
+    background: cornflowerblue;
+}
+.input-inform{
+    height: 650px;
+    width: 80%;
+    background: white;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    border: 1px solid;
+    
+    display: flex;
+    max-width: 1000px;
+}
+
+.input-inform div{
+    width: 25%;
+    float: left;
+}
+
+@media screen and (max-width: 1200px){
+    .input-inform{
+        font-size: 15px;
+    }
+    .input-inform div{
+        width: 50%;
+    }
+    .input-inform div{
+        max-width: 600px;
+    }
+    
+}
+
+.prprp{
+    
+    /* width: 80%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px; */
+
+
+    /* width: 80%; */
+    /* display: flex;  */
+    /* padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+    max-width: 1000px;
+}
+.prprp div {
+    float: left; 
+    width: 25%;
+}
+
+@media screen and (max-width: 1200px){
+    .prprp{
+        font-size: 15px;
+    }
+    .prprp div{
+        width: 50%;
+    }
+    .prprp div{
+        max-width: 600px;
+    }
+    
+}
+
+@media screen and (max-width: 760px){
+    .prprp{
+        font-size: 10px;
+    }
+    .prprp div{
+        width: 100%;
+    }
+    
+    
+}

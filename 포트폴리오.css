@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+.button2:hover {
+    background-color:#81c331;
+    transition: 1s;
+}
+
+
+
+.background1{
+     height: 350px;
+    padding: 20px;
+    
+    /* background: rgb(77,111,170); */
+    background: linear-gradient(180deg, rgba(77,111,170,1) 57%, rgba(0,98,255,1) 100%);
+    display: flex;
+}
+
+.word1{
+    
+    text-align:left;
+    color: white;
+
+}
+
+.button1{
+    background: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+
+.image1{
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    /* left: 300px; */
+    /* display: flex;
+    justify-content: flex-end; */
+    
+    
+}
+.fffw{
+    text-align:center;
+    margin-top:35px ;
+    margin-bottom: 40px;
+}
+
+.button2{
+    color: white;
+    background: black;
+}
+
+
+
+
+.backggg{
+    background: cornflowerblue;
+    height: 300px;
+    width: 100%; 
+    text-align: center;
+   
+}
+
+.backggg1{
+     /* margin-top: 100px; */
+     display: flex;
+     justify-content: center;
+     color: white;
+}
+
+.ssssw{
+    color: aliceblue;
+    
+    
+}
+  
+.fa-solid{
+    color: blue;
+}
+
+
+
+.worrrd{
+    text-align: center;
+    /* color: white; */
+    padding-left: 30px;
+    
+}
+.worrrd i {
+    background-color: white;
+    
+    height: 65px;
+    border-radius: 60px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* color: white; */
+    /* float: left; */
+    width: 45%;
+    margin: 30px;
+    
+}
+
+.portt1 img{
+    transform: scale(1.0); 
+    transition: transform .5s;
+}
+.portt1:hover{
+    transform: scale(0.5);   
+    transition: transform .5s;
+}
+.pooor{
+    display: flex;
+}
+
+
+.pooor2{
+    display: flex;
+    
+}
